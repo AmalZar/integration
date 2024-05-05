@@ -1,0 +1,407 @@
+/* START SECTION CONTENT */
+
+.Section_bg {
+  background-color: #fee3fe;
+
+  height: 612px;
+}
+
+.d_flex {
+  display: flex;
+}
+
+._height {
+  height: 100%;
+}
+
+.pd-top {
+  padding-top: 54px;
+}
+
+._title_Section {
+  color: purple;
+
+  font-weight: 600;
+  margin-top: 58px;
+  font-size: 55px;
+  padding-right: 121px;
+  text-transform: capitalize;
+  transition: all 0.3s ease; /* Animation fluide de transition */
+  position: relative; /* Position relative pour le déplacement */
+}
+
+._title_Section::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: rgb(62, 12, 24);
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transition: transform 0.3s ease; /* Animation de la barre d'accentuation */
+}
+
+._title_Section:hover::before {
+  transform: scaleX(1); /* Barre d'accentuation s'étendant au survol */
+}
+
+._title_Section:hover {
+  transform: translateY(-5px); /* Déplacement vers le haut au survol */
+  color: #f30dd0; /* Changement de couleur au survol */
+}
+
+
+.su_text {
+  color: #282626;
+
+  font-size: 18px;
+  padding-right: 426px;
+}
+
+.circle {
+  margin-top: 111px;
+  position: relative;
+  width: 329px;
+  display: inline-flex;
+  background-color: white;
+
+  height: 329px;
+  border-radius: 100%;
+}
+
+._img {
+  position: absolute;
+  width: 557px;
+  left: 62%;
+}
+
+._info {
+  position: absolute;
+  width: 80px;
+  height: 30px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  top: 42%;
+  left: 87%;
+  justify-content: center;
+}
+
+._info_icon i {
+  font-size: 12px;
+  color: rgb(196, 111, 155);
+}
+
+._info_icon {
+  background-color: #fdebf7;
+
+  padding: 5px 2px 4px 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  width: 31%;
+}
+
+._info_text p {
+  margin: 0;
+}
+
+._info_text p:first-child {
+  font-size: 8px;
+  color: pink;
+
+  font-weight: 500;
+}
+
+._info_text p:last-child {
+  font-size: 5px;
+  font-weight: 500;
+}
+
+._info_div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+._info_text {
+  padding: 7px;
+}
+
+._btn_Section {
+  font-weight: 500;
+  font-size: 14px;
+  padding: 8px 21px 8px 21px;
+}
+
+.mr_top {
+  margin-top: 28px;
+}
+
+/* END SECTION CONTENT  */
+
+/* START ARTICLE 1 */
+
+.height_article_1 {
+  height: 540px;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.article_img img {
+  width: 312px;
+  height: 291px;
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: transform 0.5s ease;
+}
+
+.article_info {
+  margin-top: 59px;
+}
+
+.article_info h1 {
+  color: #4a003c;
+
+  font-size: 32px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.article_info p {
+  width: 32%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  font-weight: 300;
+  color: #968c93;
+
+}
+
+/* END ARTICLE 1  */
+
+.height_article_2 {
+  height: 574px;
+}
+
+.cards_info {
+  text-align: center;
+}
+
+.cards_ {
+  display: flex;
+  width: 99%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: 52px;
+}
+
+.article_title {
+  color: #4a0041;
+
+  font-size: 31px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+/* START STYLE ASIDE */
+
+.height_aside {
+  height: 323px;
+}
+
+.aside_bg {
+  height: 243px;
+  background-color: #da53c6;
+
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  padding: 51px;
+  border-radius: 26px;
+  position: relative;
+}
+
+.aside_bg h1 {
+  font-weight: 500;
+  font-size: 33px;
+  color: white;
+  width: 63%;
+  text-transform: capitalize;
+  margin-bottom: 41px;
+}
+
+.btn_bg_white {
+  background-color: white;
+  color: #e177bf;
+
+}
+
+.circle_bg,
+.circle_border,
+.circle_bottom_border {
+  position: absolute;
+}
+
+.circle_bg,
+.circle_border {
+  width: 222px;
+  height: 222px;
+  border-radius: 100%;
+}
+
+.circle_bg {
+  background-color: rgba(255, 255, 255, 0.18);
+  right: -58px;
+  top: -46px;
+}
+
+.circle_border {
+  border: 2px solid rgba(255, 255, 255, 0.23);
+  right: -17px;
+  top: -67px;
+}
+
+.circle_bottom_border {
+  width: 149px;
+  height: 149px;
+  border-radius: 100%;
+  border: 2px solid rgba(255, 255, 255, 0.23);
+  top: 188px;
+  left: -68px;
+}
+
+/* AND  STYLE ASIDE */
+
+@media screen and (max-width: 576px) {
+  /* RESPONSIV SECTION */
+
+  .Section_img {
+    display: none;
+  }
+
+  .pd-top {
+    padding-top: 0px;
+  }
+  .su_text {
+    padding-right: 0px;
+    font-size: 10px;
+    text-align: center;
+    width: 79%;
+  }
+  ._height {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 87%;
+  }
+  ._title_Section {
+    padding-right: 0px;
+    text-align: center;
+    font-size: 34px;
+    width: 96%;
+  }
+  .Section_bg {
+    height: fit-content;
+  }
+  .mr_top {
+    margin-bottom: 22px;
+  }
+  /* END RESPONSIV SECTION */
+
+  /* START RESPONSIV  ARTICLE 1 */
+
+  .article_info {
+    margin-top: 0px;
+  }
+  .article_info h1 {
+    font-size: 24px;
+    margin-bottom: 2px;
+  }
+
+  .article_info p {
+    width: 87%;
+    font-size: 11px;
+  }
+
+  .article_img img {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 272px;
+    height: 257px;
+  }
+
+  .height_article_1 {
+    height: fit-content;
+  }
+
+  /* END RESPONSIV  ARTICLE 1 */
+
+  /* START RESPONSIV ARTICLE 2 */
+  .article_title {
+    font-size: 24px;
+  }
+
+  .height_article_2 {
+    height: fit-content;
+  }
+
+  /* END RESPONSIV ARTICLE 2 */
+
+  /* START RESPONSIV ARTICLE 3 */
+
+  .aside_bg {
+    height: 144px;
+  }
+
+  .circle_bg,
+  .circle_border {
+    width: 100px;
+    height: 100px;
+  }
+
+  .circle_bg {
+    right: -26px;
+    top: -29px;
+  }
+  .circle_border {
+    right: -11px;
+    top: -48px;
+  }
+
+  .aside_bg h1 {
+    font-size: 14px;
+    margin-bottom: 12px;
+    width: 83%;
+  }
+
+  .aside_bg {
+    padding: 23px;
+  }
+  .aside_bg button {
+    font-size: 10px;
+  }
+  .circle_bottom_border {
+    width: 100px;
+    height: 100px;
+    top: 116px;
+    left: -38px;
+  }
+  .height_aside {
+    height: 205px;
+}
+  /* END RESPONSIV ARTICLE 3 */
+
+
+
+}

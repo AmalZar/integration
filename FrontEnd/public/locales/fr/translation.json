@@ -1,0 +1,74 @@
+{
+  "section_title": "SafePet vous offre le meilleur moyen de trouver un Vétérinaire",
+  "section_description": "Grâce au site web, vous pouvez facilement rechercher des vétos et sauver vos animeaux.",
+  "schedule_appointment": "Prenez rendez-vous",
+  "service_quality_title": "quelques Images de nos Service de haute qualité pour vous",
+  "service_quality_description": "Le site compte de nombreux Vétérinaires dans différentes spécialités.",
+  "book_our_doctors": "Réservez nos vétos",
+  "take_care_of_yourself": "Ne tardez pas à prendre soin de votre animal et de leur santé",
+  "Header": {
+      "Home": "Accueil",
+      "Find_Doctor": "Trouver un Vétérinaires",
+
+      "About": "À Propos",
+      "Contact": "Contact"
+    },
+    "Card": {
+      "Reserve": "Réserver",
+      "View_Profile": "Voir le profil"
+    },
+    "DatePicker": {
+      "Select_Date": "Sélectionner une date"
+    },
+    "ProfileRegister": {
+      "Login": "Connexion",
+      "Register": "S'identifier"
+    },
+    "SearchDoctorCard": {
+      "Available": "Disponible",
+      "Not_Available": "Non disponible",
+      "Book_Now": "Réserver",
+      "View_Profile": "Voir le profil"
+    },
+    "TimePicker": {
+      "Select_Time": "Sélectionner l'heure"
+    },
+    "Section_Doctor": {
+      "Welcome_Doctor": "Bienvenue",
+      "in_DocAppoint": "dans SafePet",
+
+      "Appointments_Today": "Vous avez 5 rendez-vous aujourd'hui !"
+    },
+    "TableDashboard": {
+      "User_Signup": "Inscription utilisateur",
+      "List_of_latest_users": "Ceci est la liste des derniers utilisateurs"
+    },
+  "About" : {
+      "aboutUsTitle": "À propos de nous",
+      "welcomeMessage": "Bienvenue sur SafePet, la plateforme en ligne qui facilite la gestion quotidienne des vétérinaires qualifiés et compétents. Notre mission est de rendre l'accès aux soins vétérinaux plus simple, rapide et efficace pour tous grace a nos services AI.",
+      "dataPrivacyMessage": "Nous nous engageons à protéger la confidentialité de vos données médicales et à garantir la sécurité de vos informations personnelles.La santé de vos Pets et leurs bien-être sont notre priorité absolue, et nous mettons tout en œuvre pour vous offrir une expérience utilisateur optimale et sécurisée. N'hésitez pas à parcourir notre site et à découvrir les nombreux professionnels de pets santé disponibles. Prenez le contrôle de santé de vos animaux et réservez dès maintenant votre prochain rendez-vous avec SafePet !",
+      "bookingSystemMessage": "Grâce à notre système de réservation en ligne, ShopPet en ligne vous pouvez consulter les disponibilités des vétérinaires, choisir le créneau qui vous convient le mieux et réserver votre rendez-vous en quelques clics seulement. Fini les longues attentes au téléphone ou les déplacements inutiles, avec SafePet, la gestion de vos animals rendez-vous médicaux est simplifiée et rapide."
+
+    },"contact":{
+      "contactUsTitle": "Contactez-nous",
+      "nameLabel": "Nom :",
+      "namePlaceholder": "Nom",
+      "emailLabel": "Email :",
+      "emailPlaceholder": "votreadresse@example.com",
+      "messageLabel": "Votre message :",
+      "messagePlaceholder": "Votre message",
+      "sendButton": "Envoyer",
+      "phoneNumber": "23-125-749",
+      "officePhoneNumber": "+216 23-567-894",
+      "emailAddress": "example@gmail.com",
+      "address": "Rue, Elomran, monastir, 5000"
+7
+    },
+    "view":{
+      "Title":"Derniers articles"
+    
+    },"footer":{
+      "copyright":"hello, SAFEPET!"
+
+    }
+}
