@@ -18,7 +18,7 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-thumb {
   background-color: pink;
-  background-color: #0b60ed;
+  background-color: #f30db2;
   border: 1px solid rgb(238, 89, 188);
   height: 3px;
   border-radius: 22px;

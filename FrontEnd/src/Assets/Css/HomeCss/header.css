@@ -16,7 +16,7 @@ p {
 
 .header {
   background-color: #edcbe2;
-  background-color: #c1dff9;
+  background-color: #f9c1f0;
   height: 74px;
   width: 100%;
   display: flex;
@@ -56,7 +56,7 @@ a.nav_link {
   font-size: 13px;
   text-decoration: none;
   color: #968c94;
-  color: #8c8d96;
+  color: #9f8c98;
   font-weight: 600;
 }
 
@@ -74,13 +74,13 @@ a.nav_link {
 
 .btn_bg_primary {
   background-color: pink;
-  background-color: #0d63f3;
+  background-color: #f30db2;
   color: white;
 }
 .btn_bg_white {
   background-color: white;
   color: pink;
-  color: #0d63f3;
+  color: #f30db2;
 }
 
 .btn_bg_white:hover {
@@ -88,7 +88,7 @@ a.nav_link {
 }
 .btn_bg_primary:hover {
   background-color: pink;
-  background-color: #0b60ed;
+  background-color: #f30db2;
 }
 
 .mr_left {
@@ -112,7 +112,7 @@ a.nav_link {
 .btn_menu {
   border: none;
   background-color: transparent;
-  color: #00214a;
+  color: #4a0039;
 }
 
 .btn_menu {
@@ -142,7 +142,7 @@ a.nav_link {
     display: block;
     position: absolute;
     background-color: #eab2dd;
-    background-color: #c1dff9;
+    background-color: #f9c1e8;
     width: 100%;
     top: 60px;
     bottom: 0;

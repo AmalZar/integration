@@ -41,7 +41,7 @@
 .search_input label {
   font-size: 18px;
   color: #4a0044;
-  caret-color: #8c8d96;
+  caret-color: #968c93;
 }
 .search_input label {
   font-size: 18px;
@@ -75,6 +75,6 @@
 }
 
 .border_card {
-  border: 2px solid rgba(140, 141, 150, 0.21);
+  border: 2px solid rgba(150, 140, 146, 0.21);
   border-radius: 10px;
 }
